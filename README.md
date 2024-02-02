@@ -29,7 +29,7 @@ $ npm start (Run server)
 
 ## Deployment
 
-[click here to check live version](https:///)
+[click here to check live version](https://dev--lucky-moxie-8d5dd8.netlify.app/)
 
 ## Additional Documentation and Acknowledgments
 
