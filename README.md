@@ -1,6 +1,6 @@
 # Simple Admin Dashboard
 
-This is mi personal portfolio by using some 3D animations.
+Admin dashboard to display the statistic of many things
 
 ![](./src/assets/admindashboard.png)
 
