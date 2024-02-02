@@ -32,7 +32,7 @@ const NavButton = ({ title, customFunc, icon, color, dotColor }) => {
 }
 
 const Navbar = () => {
-  const { activeMenu, setActiveMenu, isClicked, setIsClicked, handleClick, screenSize, setScreenSize, currentColor } = UseStateContext();
+  const { setActiveMenu, isClicked, handleClick, screenSize, setScreenSize, currentColor } = UseStateContext();
 
   useEffect(() => {
     const handleResize = () => setScreenSize(window.innerWidth);
@@ -42,7 +42,7 @@ const Navbar = () => {
     handleResize();
 
     return () => window.removeEventListener('resize', handleResize);
-
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
@@ -50,7 +50,7 @@ const Navbar = () => {
       setActiveMenu(false);
     } else {
       setActiveMenu(true);
-    }
+    } // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [screenSize])
 
 
