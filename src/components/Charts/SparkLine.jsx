@@ -19,6 +19,7 @@ class SparkLine extends React.PureComponent {
         type={"Line"}
         tooltipSettings={{
           visible: true,
+          // eslint-disable-next-line no-template-curly-in-string
           format: "${xval} : ${yval}",
           trackLineSettings: {
             visible: true,
