@@ -10,7 +10,7 @@ const sideBar = () => {
   const { activeMenu, setActiveMenu, screenSize, currentColor } = UseStateContext();
 
   const handleCloseSideBar = () => {
-    if(activeMenu && screenSize <= 900) {
+    if(activeMenu && screenSize) {
       setActiveMenu(false);
     }
   };
@@ -32,7 +32,7 @@ const sideBar = () => {
           <TooltipComponent content="Menu" position="BottomCenter">
             <button
               type="button"
-              onClick={() => setActiveMenu((prevActiveMenu) => !prevActiveMenu)}
+              onClick={handleCloseSideBar}
               className="text-xl rounded-full p-3 hover:bg-light-gray mt-4 block md:hidden"
             >
               <MdOutlineCancel />

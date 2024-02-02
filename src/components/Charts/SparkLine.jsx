@@ -1,6 +1,5 @@
 import React from 'react'
-import { SparklineComponent, Inject, SparklineTooltip } from '@syncfusion/ej2-react-charts'
-import { render } from 'react-dom'
+import { SparklineComponent, Inject, SparklineTooltip } from '@syncfusion/ej2-react-charts';
 
 class SparkLine extends React.PureComponent {
   render() {
