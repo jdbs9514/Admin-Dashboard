@@ -29,7 +29,7 @@ $ npm start (Run server)
 
 ## Deployment
 
-[click here to check live version](https://resplendent-pithivier-22046c.netlify.app/)
+[click here to check live version](https:///)
 
 ## Additional Documentation and Acknowledgments
 
